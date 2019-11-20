@@ -1,0 +1,27 @@
+.categoryBox{
+   
+    padding: 30px 0;
+}
+.categoryBox ul li a{
+    text-decoration: none;
+    
+    font-family: Aryal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #7FEFCF;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}

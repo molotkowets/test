@@ -1,0 +1,13 @@
+.headlBox{
+    background: #000;
+    display: block;
+    padding: 30px 17px 30px;
+
+}
+.headlBox h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+}

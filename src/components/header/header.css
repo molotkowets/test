@@ -1,0 +1,32 @@
+.block{
+    padding: 0 20px;
+    height: 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    height: 13px;
+    position: relative;
+}
+.menu::before, .menu::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 4px;
+    background: #7FEFCF;
+    border-radius: 2.5px;
+}
+.menu::before{
+    top: 0;
+}
+.menu::after{
+    bottom: 0;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}

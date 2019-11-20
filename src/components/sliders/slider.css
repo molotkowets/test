@@ -1,0 +1,54 @@
+.slider{
+    background-image: url(../../media/slider/fon.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.slContent{
+    background: rgba(0, 0, 0, 0.401415);
+    height: 100%;
+}
+.slPoint{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+.slPoint a{
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: #fff 2px solid;
+}
+.slPoint a:first-child{
+    background-color: white;
+}
+.slContent h2, .slContent p{
+    position: absolute;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+    color: #7FEFCF;
+}
+
+.slContent h2{
+    width: 379px;
+    height: 90px;
+    left: 19px;
+    top: 238px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+    
+.slContent p{
+    width: 379px;
+    height: 69px;
+    left: 19px;
+    top: 349px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
